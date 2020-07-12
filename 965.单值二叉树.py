@@ -6,9 +6,6 @@
 #         self.right = None
 
 class Solution(object):
-
-
-
     def isUnivalTree(self, root):
         """
         :type root: TreeNode
@@ -29,7 +26,6 @@ class Solution(object):
 
     midOrder(node * t)
     {
-    // 用于储存遍历的元素
     stack < node * > sta;
     while (t | |  !sta.empty() )
     {
@@ -47,11 +43,6 @@ class Solution(object):
     }
     }
 
-    ---------------------
-    作者：疯狂的小阿咪
-    来源：CSDN
-    原文：https: // blog.csdn.net / qq_27704269 / article / details / 52566998
-    版权声明：本文为博主原创文章，转载请附上博文链接！
 
 
 
